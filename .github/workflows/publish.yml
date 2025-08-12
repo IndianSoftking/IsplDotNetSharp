@@ -28,10 +28,10 @@ jobs:
           dotnet-version: 9.0.x
 
       - name: Authenticate with GitHub Packages
-        run: dotnet nuget add source https://nuget.pkg.github.com/IndianSoftking/index.json \
+        run: dotnet nuget add source https://nuget.pkg.github.com/${{ github.repository_owner }}/index.json \
           --name github \
-          --username IndianSoftking \
-          --password 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
+          --username ${{ github.repository_owner }} \
+          --password ${{ secrets.GITHUB_TOKEN }}
 
       - name: Restore dependencies
         run: dotnet restore
