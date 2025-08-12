@@ -12,7 +12,7 @@ namespace ISPL.NetCoreFramework
 {
     public static class ApplicationBuilderExtensions
     {
-        public static IApplicationBuilder UseMyFastEndpoints(this IApplicationBuilder app)
+        public static IApplicationBuilder UseApps(this IApplicationBuilder app)
         {
             app.UseMiddleware<ExceptionMiddleware>();
             app.UseDefaultFiles();

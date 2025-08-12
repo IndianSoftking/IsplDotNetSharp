@@ -1,30 +1,35 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
-  <PropertyGroup>
-    <TargetFramework>net9.0</TargetFramework>
-    <ImplicitUsings>enable</ImplicitUsings>
-    <Nullable>enable</Nullable>
-    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
-    <Title>ISPL Dot Net Core Framework</Title>
-    <PackageIcon>facicon.png</PackageIcon>
-  </PropertyGroup>
+	<PropertyGroup>
+		<TargetFramework>net9.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+		<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+		<PackageId>ISPL.NetCoreFramework</PackageId>
+		<Version>1.0.0</Version>
+		<Title>ISPL Dot Net Core Framework</Title>
+		<PackageIcon>facicon.png</PackageIcon>
+		<Authors>Shiv Kumar</Authors>
+		<Company>Indian Softking</Company>
+		<PackageLicenseExpression>MIT</PackageLicenseExpression>
+	</PropertyGroup>
 
-  <ItemGroup>
-    <None Include="..\..\Azure Repos\IndianSoftking.com\assets\img\facicon.png">
-      <Pack>True</Pack>
-      <PackagePath>\</PackagePath>
-    </None>
-  </ItemGroup>
+	<ItemGroup>
+		<None Include="..\..\Azure Repos\IndianSoftking.com\assets\img\facicon.png">
+			<Pack>True</Pack>
+			<PackagePath>\</PackagePath>
+		</None>
+	</ItemGroup>
 
-  <ItemGroup>
-    <PackageReference Include="FastEndpoints" Version="7.0.1" />
-    <PackageReference Include="FastEndpoints.OData" Version="7.0.1" />
-    <PackageReference Include="FastEndpoints.Security" Version="7.0.1" />
-    <PackageReference Include="FastEndpoints.Swagger" Version="7.0.1" />
-    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="9.0.8" />
-    <PackageReference Include="Microsoft.EntityFrameworkCore.DynamicLinq" Version="9.6.7" />
-    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="9.0.8" />
-    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="9.0.8" />
-  </ItemGroup>
+	<ItemGroup>
+		<PackageReference Include="FastEndpoints" Version="7.0.1" />
+		<PackageReference Include="FastEndpoints.OData" Version="7.0.1" />
+		<PackageReference Include="FastEndpoints.Security" Version="7.0.1" />
+		<PackageReference Include="FastEndpoints.Swagger" Version="7.0.1" />
+		<PackageReference Include="Microsoft.EntityFrameworkCore" Version="9.0.8" />
+		<PackageReference Include="Microsoft.EntityFrameworkCore.DynamicLinq" Version="9.6.7" />
+		<PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="9.0.8" />
+		<PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="9.0.8" />
+	</ItemGroup>
 
 </Project>
