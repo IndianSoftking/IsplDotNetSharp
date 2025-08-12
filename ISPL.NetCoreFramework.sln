@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36401.2 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ISPL.NetCoreFramework", "ISPL.NetCoreFramework.csproj", "{2BE0E6DD-C9F5-4CA5-BE42-19F8B4B387E9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2BE0E6DD-C9F5-4CA5-BE42-19F8B4B387E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2BE0E6DD-C9F5-4CA5-BE42-19F8B4B387E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2BE0E6DD-C9F5-4CA5-BE42-19F8B4B387E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2BE0E6DD-C9F5-4CA5-BE42-19F8B4B387E9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {14B8CB9C-52AA-462F-8D1F-BCF51C0BC097}
+	EndGlobalSection
+EndGlobal

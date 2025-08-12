@@ -1,0 +1,8 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs/ISPL.NetCoreFramework
+/.vs/ISPL.NetCoreFramework
+/bin/Debug/net9.0
+/obj
