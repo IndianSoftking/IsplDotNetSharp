@@ -6,7 +6,7 @@
 		<Nullable>enable</Nullable>
 		<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
 		<PackageId>ISPL.NetCoreFramework</PackageId>
-		<Version>1.0.2</Version>
+		<Version>1.0.3</Version>
 		<Title>ISPL Dot Net Core Framework</Title>
 		<PackageIcon>facicon.png</PackageIcon>
 		<Authors>Shiv Kumar</Authors>
