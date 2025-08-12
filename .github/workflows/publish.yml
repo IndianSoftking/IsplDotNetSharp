@@ -1,9 +1,13 @@
-name: Publish NuGet
+name: Publish NuGet Package
 
 on:
   push:
     tags:
       - 'v*'
+
+permissions:
+  contents: read
+  packages: write
 
 jobs:
   publish:
@@ -22,10 +26,10 @@ jobs:
           dotnet-version: 9.0.x
 
       - name: Authenticate with GitHub Packages
-        run: dotnet nuget add source https://nuget.pkg.github.com/${{ github.repository_owner }}/index.json \
+        run: dotnet nuget add source https://nuget.pkg.github.com/IndianSoftking/index.json \
           --name github \
-          --username ${{ github.repository_owner }} \
-          --password ${{ secrets.GITHUB_TOKEN }}
+          --username IndianSoftking \
+          --password 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
 
       - name: Restore dependencies
         run: dotnet restore

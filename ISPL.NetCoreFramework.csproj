@@ -6,7 +6,7 @@
 		<Nullable>enable</Nullable>
 		<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
 		<PackageId>ISPL.NetCoreFramework</PackageId>
-		<Version>1.0.0</Version>
+		<Version>1.0.2</Version>
 		<Title>ISPL Dot Net Core Framework</Title>
 		<PackageIcon>facicon.png</PackageIcon>
 		<Authors>Shiv Kumar</Authors>
@@ -26,6 +26,13 @@
 		<PackageReference Include="Microsoft.EntityFrameworkCore.DynamicLinq" Version="9.6.7" />
 		<PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="9.0.8" />
 		<PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="9.0.8" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <None Update="facicon.png">
+	    <Pack>True</Pack>
+	    <PackagePath>\</PackagePath>
+	  </None>
 	</ItemGroup>
 
 </Project>
