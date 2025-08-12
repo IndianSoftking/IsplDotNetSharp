@@ -28,10 +28,7 @@ jobs:
           dotnet-version: 9.0.x
 
       - name: Authenticate with GitHub Packages
-        run: dotnet nuget add source https://nuget.pkg.github.com/${{ github.repository_owner }}/index.json
-          --name ISPL.NetCoreFramework
-          --username ${{ github.repository_owner }}
-          --password ${{ secrets.GITHUB_TOKEN }}
+        run: dotnet nuget add source https://nuget.pkg.github.com/${{ github.repository_owner }}/index.json --name ISPL.NetCoreFramework --username ${{ github.repository_owner }} --password ${{ secrets.GITHUB_TOKEN }}
 
       - name: Restore dependencies
         run: dotnet restore
