@@ -12,14 +12,10 @@
 		<Authors>Shiv Kumar</Authors>
 		<Company>Indian Softking</Company>
 		<PackageLicenseExpression>MIT</PackageLicenseExpression>
+		<PackageProjectUrl>https://github.com/IndianSoftking/ISPL.NetCoreFramework</PackageProjectUrl>
+		<RepositoryUrl>https://github.com/IndianSoftking/ISPL.NetCoreFramework</RepositoryUrl>
+		<RepositoryType>git</RepositoryType>
 	</PropertyGroup>
-
-	<ItemGroup>
-		<None Include="..\..\Azure Repos\IndianSoftking.com\assets\img\facicon.png">
-			<Pack>True</Pack>
-			<PackagePath>\</PackagePath>
-		</None>
-	</ItemGroup>
 
 	<ItemGroup>
 		<PackageReference Include="FastEndpoints" Version="7.0.1" />
