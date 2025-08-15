@@ -5,9 +5,9 @@
 		<ImplicitUsings>enable</ImplicitUsings>
 		<Nullable>enable</Nullable>
 		<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
-		<PackageId>ISPL.NetCoreFramework</PackageId>
-		<Version>1.0.4</Version>
-		<Title>ISPL Dot Net Core Framework</Title>
+		<PackageId>IsplDotNetSharp</PackageId>
+		<Version>1.0.5</Version>
+		<Title>Ispl Dot Net Sharp</Title>
 		<PackageIcon>facicon.png</PackageIcon>
 		<Authors>Shiv Kumar</Authors>
 		<Company>Indian Softking</Company>
