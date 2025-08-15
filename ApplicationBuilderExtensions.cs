@@ -1,14 +1,4 @@
-﻿using FastEndpoints;
-using FastEndpoints.Swagger;
-
-using ISPL.NetCoreFramework.Middlewares;
-
-using Microsoft.AspNetCore.Builder;
-using Microsoft.Extensions.DependencyInjection;
-using Microsoft.Extensions.Hosting;
-
-
-namespace ISPL.NetCoreFramework
+﻿namespace ISPL.NetCoreFramework
 {
     public static class ApplicationBuilderExtensions
     {

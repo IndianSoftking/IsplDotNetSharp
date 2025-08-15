@@ -1,11 +1,8 @@
-﻿using System.Security.Cryptography;
-using System.Text;
-
-namespace ISPL.NetCoreFramework.Helpers
+﻿namespace ISPL.NetCoreFramework.Helpers
 {
     public static class CryptoHelper
     {
-        private const string KeyPassword = "";
+        private static readonly string KeyPassword = AppSettingsHelper.Get("JwtSetting:Key") ?? string.Empty;
         private const int KeySize = 256;
         private const int DerivationIterations = 100_000;
 

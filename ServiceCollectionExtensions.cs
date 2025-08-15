@@ -1,14 +1,4 @@
-﻿using FastEndpoints;
-using FastEndpoints.Security;
-using FastEndpoints.Swagger;
-
-using ISPL.NetCoreFramework.Helpers;
-
-using Microsoft.AspNetCore.OData;
-using Microsoft.Extensions.Configuration;
-using Microsoft.Extensions.DependencyInjection;
-
-namespace ISPL.NetCoreFramework
+﻿namespace ISPL.NetCoreFramework
 {
     public static class ServiceCollectionExtensions
     {

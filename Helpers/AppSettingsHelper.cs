@@ -1,6 +1,4 @@
-﻿using Microsoft.Extensions.Configuration;
-
-namespace ISPL.NetCoreFramework.Helpers
+﻿namespace ISPL.NetCoreFramework.Helpers
 {
     public static class AppSettingsHelper
     {

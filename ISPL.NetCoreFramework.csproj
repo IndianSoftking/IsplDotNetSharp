@@ -6,7 +6,7 @@
 		<Nullable>enable</Nullable>
 		<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
 		<PackageId>ISPL.NetCoreFramework</PackageId>
-		<Version>1.0.3</Version>
+		<Version>1.0.4</Version>
 		<Title>ISPL Dot Net Core Framework</Title>
 		<PackageIcon>facicon.png</PackageIcon>
 		<Authors>Shiv Kumar</Authors>
@@ -33,6 +33,10 @@
 	    <Pack>True</Pack>
 	    <PackagePath>\</PackagePath>
 	  </None>
+	</ItemGroup>
+
+	<ItemGroup>
+	  <None Include=".github\workflows\publish.yml" />
 	</ItemGroup>
 
 </Project>
